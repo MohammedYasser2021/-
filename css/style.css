@@ -387,7 +387,7 @@ footer .latest h3 {
 }
 @media (max-width: 576px) {
   .carousel-indicators {
-    left: 9%;
+    left: 12%;
   }
 }
 @media (min-width: 577px) and (max-width: 767px) {
