@@ -385,19 +385,18 @@ footer .latest h3 {
   padding: 10px;
   border-radius: 7px;
 }
-.carousel-indicators {
-  left: 4%;
-}
+
 @media (max-width: 767px) {
   .carousel-indicators {
-    left: 6%;
+    left: 7%;
   }
 }
-@media (max-width: 576px) {
+@media (min-width: 768px) {
   .carousel-indicators {
-    left: 8%;
+    left: 4%;
   }
 }
+
 .carousel-item {
   margin-bottom: 50px !important;
 }
