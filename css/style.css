@@ -388,6 +388,16 @@ footer .latest h3 {
 .carousel-indicators {
   left: 4%;
 }
+@media (max-width: 767px) {
+  .carousel-indicators {
+    left: 6%;
+  }
+}
+@media (max-width: 576px) {
+  .carousel-indicators {
+    left: 8%;
+  }
+}
 .carousel-item {
   margin-bottom: 50px !important;
 }
