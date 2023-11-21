@@ -385,8 +385,12 @@ footer .latest h3 {
   padding: 10px;
   border-radius: 7px;
 }
-
-@media (max-width: 767px) {
+@media (max-width: 576px) {
+  .carousel-indicators {
+    left: 9%;
+  }
+}
+@media (min-width: 577px) and (max-width: 767px) {
   .carousel-indicators {
     left: 7%;
   }
